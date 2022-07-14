@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&family=Montserrat&family=Outfit:wght@300&family=Poppins:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    max-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foto img {
+    width: 300px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+h1 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+p {
+    color: #9d9b9b;
+    font-size: 1.125rem;
+    margin-bottom: 25px;
+    word-break: break-all;
+    max-width: 26ch;
+}
+.container {
+    background-color: hsl(216, 50%, 16%);
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 50px;
+}
+.container-dados {
+    display: flex;
+}
+.numero {
+    color: cyan;
+    margin-bottom: 30px;
+}
+.dia {
+    color: #9d9b9b;
+    margin-left: 110px;
+}
+.criador {
+    margin-top: 30px;
+    margin-left: 15px;
+    color: #9d9b9b;
+}
+.criador a {
+    text-decoration: none;
+    color: white;
+}
+.avatar {
+    display: flex;
+    align-items: center;
+}
+.foto-avatar {
+    width: 45px;
+    margin-top: 30px;
+}
+
+@media (max-width: 500px) {
+    .container {
+        margin-bottom: 40px;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+}
